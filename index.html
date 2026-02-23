@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from linkmap-381d1.web.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Feb 2026 09:31:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pixel Storage UI</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h2>Google Pixel 6a Storage</h2>
+    <a href="#" onclick="showFolders()" class="open-link">View Storage</a>
+
+    <div class="folder-grid" id="folders" style="display: none;">
+      <div class="folder-card" onclick="showUpgradeMessage('Images')">
+        <div class="icon-circle">
+          <img src="../img.icons8.com/color/48/image.png" alt="Images">
+        </div>
+        <div class="label">Images</div>
+        <div class="count">356 items</div>
+      </div>
+      <div class="folder-card" onclick="showUpgradeMessage('Videos')">
+        <div class="icon-circle">
+          <img src="../img.icons8.com/color/48/video.png" alt="Videos">
+        </div>
+        <div class="label">Videos</div>
+        <div class="count">120 files</div>
+      </div>
+      <div class="folder-card" onclick="showUpgradeMessage('Audio')">
+        <div class="icon-circle">
+          <img src="../img.icons8.com/color/48/music.png" alt="Audio">
+        </div>
+        <div class="label">Audio</div>
+        <div class="count">214 tracks</div>
+      </div>
+      <div class="folder-card" onclick="showUpgradeMessage('Documents')">
+        <div class="icon-circle">
+          <img src="../img.icons8.com/color/48/document.png" alt="Documents">
+        </div>
+        <div class="label">Documents</div>
+        <div class="count">89 files</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+<!-- Mirrored from linkmap-381d1.web.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Feb 2026 09:31:48 GMT -->
+</html>
