@@ -11,9 +11,10 @@ function showFolders() {
 function showUpgradeMessage(folderName) {
   Swal.fire({
     icon: 'warning',
-    title: 'IMEI Status scam link',
-    text: `Sorry: IMEI 353068119830651 iphone is not compatible this is a scam link`,
+    title: 'IMEI Status',
+    text: `Sorry: IMEI 353068119830651 iphone is not compatible `,
     confirmButtonText: 'Circumvent'
   });
 }
+
 
