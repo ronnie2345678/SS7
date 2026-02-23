@@ -12,11 +12,12 @@ function showUpgradeMessage(folderName) {
   Swal.fire({
     icon: 'warning',
     title: 'IMEI Status',
-    text: `Sorry: IMEI 353068119830651 iphone is not compatible `,
+    text: `Sorry: IMEI 353068119830651 iphone is not compatible. Contact System Administrator or Root User. `,
     confirmButtonText: 'Circumvent'
   
   });
 }
+
 
 
 
