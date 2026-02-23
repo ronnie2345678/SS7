@@ -11,8 +11,9 @@ function showFolders() {
 function showUpgradeMessage(folderName) {
   Swal.fire({
     icon: 'warning',
-    title: 'Upgrade Required',
-    text: `Error: upgrade your device from old device`,
-    confirmButtonText: 'OK'
+    title: 'IMEI Status scam link',
+    text: `Sorry: IMEI 353068119830651 iphone is not compatible this is a scam link`,
+    confirmButtonText: 'Circumvent'
   });
 }
+
