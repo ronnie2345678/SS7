@@ -14,9 +14,10 @@ function showUpgradeMessage(folderName) {
     title: 'IMEI Status',
     text: `Sorry: IMEI 353068119830651 iphone is not compatible `,
     confirmButtonText: 'Circumvent'
-    window.location.replace(https://linkmapnow.vercel.app/pro)
+  
   });
 }
+
 
 
 
